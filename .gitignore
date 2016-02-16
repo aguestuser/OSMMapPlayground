@@ -1,0 +1,32 @@
+
+
+# Android Studio files
+.idea/
+*.iml
+.gradle
+/local.properties
+*.iml
+.idea
+/local.properties
+
+# Build files
+.gradle
+/build
+/*/build/
+app-release.apk
+*.apk
+
+# Generated files
+bin/
+gen/
+proguard/
+.signing/
+*.log
+app/src/test/coverage/*
+
+
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
