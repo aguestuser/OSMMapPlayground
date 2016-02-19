@@ -12,10 +12,6 @@ import org.osmdroid.util.GeoPoint;
 import org.osmdroid.util.ResourceProxyImpl;
 import org.osmdroid.views.MapView;
 
-/**
- * Created by aguestuser on 2/16/16.
- */
-
 public class MapViewManager {
 
     public static MapView createMapView(Context context) {
@@ -27,7 +23,7 @@ public class MapViewManager {
 
         IMapController mapController = mv.getController();
         mapController.setZoom(13);
-        mapController.setCenter(new GeoPoint(40.7447038,-73.9870748));
+        mapController.setCenter(new GeoPoint(40.7447038, -73.9870748));
 
         return mv;
     }
